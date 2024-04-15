@@ -111,27 +111,40 @@
           <div class="reservation__page">
             <div class="reservation__title">Book a table</div>
             <div class="reservation__form">
-              <fieldset class="form__fieldset">
-                <label class="form__label" for="">Name*</label>
+              <fieldset class="reservation__form-fieldset">
+                <label class="reservation__form-label" for="name">Name*</label>
                 <input
-                  class="form__input"
+                  class="reservation__form-input"
                   type="name"
                   placeholder="Name Surname"
+                  id="name"
                 />
-                <label class="form__label" for="">Number of guests*</label>
-                <input class="form__input" type="number" placeholder="1-8" />
-                <label class="form__label" for="">Date&time* </label>
-                <input class="form__input" type="date" />
-                <label class="form__label" for="">Your email*</label>
+                <label class="reservation__form-label" for="number"
+                  >Number of guests*</label
+                >
                 <input
-                  class="form__input"
+                  class="reservation__form-input"
+                  type="number"
+                  placeholder="1-8"
+                  id="number"
+                />
+                <label class="reservation__form-label" for="time"
+                  >Date&time*
+                </label>
+                <input class="reservation__form-input" type="date" id="time" />
+                <label class="reservation__form-label" for="email"
+                  >Your email*</label
+                >
+                <input
+                  class="reservation__form-input"
                   type="email"
                   placeholder="email@email.com"
+                  name="email"
                 />
                 <button class="form__button">Book a table</button>
-                <label class="form__label" for="checkbox"
+                <label class="reservation__form-label" for="checkbox"
                   ><input
-                    class="form__checkbox"
+                    class="reservation__form-checkbox"
                     type="checkbox"
                     name="checkbox"
                   />I agree with the terms of use</label

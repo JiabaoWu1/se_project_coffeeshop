@@ -175,10 +175,10 @@
   line-height: 20px;
   margin-bottom: 2px;
 }
-.form__fieldset {
+.reservation__form-fieldset {
   border: none;
 }
-.form__input {
+.reservation__form-input {
   display: block;
   line-height: 60px;
   margin-bottom: 32px;
@@ -195,7 +195,7 @@
   opacity: 0.7;
   transition: opacity 1s;
 }
-.form__label {
+.reservation__form-label {
   display: block;
 }
 
