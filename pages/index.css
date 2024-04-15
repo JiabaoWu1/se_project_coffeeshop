@@ -97,6 +97,7 @@
   line-height: 20px;
   color: #838383;
 }
+
 .recipes {
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
@@ -140,4 +141,71 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+.reservation {
+  display: block;
+  position: relative;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.reservation__page {
+  position: absolute;
+}
+.reservation__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px auto 80px;
+}
+.reservation__form {
+  margin: 0 auto;
+}
+.form__label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+.form__fieldset {
+  border: none;
+}
+.form__input {
+  display: block;
+  line-height: 60px;
+  margin-bottom: 32px;
+}
+.form__button {
+  border-radius: 4px;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__button:hover {
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+.form__label {
+  display: block;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+}
+.form__input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }

@@ -59,7 +59,7 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__paragraph">
+          <p class="header__paragraph-bottom">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -107,7 +107,39 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <div class="reservation__page">
+            <div class="reservation__title">Book a table</div>
+            <div class="reservation__form">
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="">Name*</label>
+                <input
+                  class="form__input"
+                  type="name"
+                  placeholder="Name Surname"
+                />
+                <label class="form__label" for="">Number of guests*</label>
+                <input class="form__input" type="number" placeholder="1-8" />
+                <label class="form__label" for="">Date&time* </label>
+                <input class="form__input" type="date" />
+                <label class="form__label" for="">Your email*</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                />
+                <button class="form__button">Book a table</button>
+                <label class="form__label" for="checkbox"
+                  ><input
+                    class="form__checkbox"
+                    type="checkbox"
+                    name="checkbox"
+                  />I agree with the terms of use</label
+                >
+              </fieldset>
+            </div>
+          </div>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
