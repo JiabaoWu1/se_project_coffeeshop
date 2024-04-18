@@ -1,0 +1,50 @@
+.about {
+  position: relative;
+  display: flex;
+  background-color: #0a2850;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.about__circle {
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  border-radius: 50%;
+  display: flex;
+  width: 426px;
+  height: 426px;
+  background-color: blue;
+}
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 80px;
+  min-width: 251px;
+}
+.about__linebreaker {
+  display: block;
+}
+.about__content {
+  margin: 0;
+  padding: 0;
+  margin: 119px 80px 173px;
+}
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about__paragraph:last-child {
+  margin: 0;
+}
