@@ -16,9 +16,28 @@
   height: 426px;
   background-color: blue;
 }
+.about__circle_animation_blurred {
+  animation-name: pulsate;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
 .about__title {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -28,16 +47,21 @@
   padding-left: 80px;
   min-width: 251px;
 }
+.about__title-breaker {
+  display: block;
+}
 .about__linebreaker {
   display: block;
 }
 .about__content {
   margin: 0;
   padding: 0;
-  margin: 119px 80px 173px;
+
+  padding: 119px 80px 173px;
+  max-width: 660px;
 }
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
