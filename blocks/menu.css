@@ -9,8 +9,8 @@
 
 .menu__title {
   text-align: center;
-
-  margin: 0 0 24px;
+  max-width: 780px;
+  margin: 0 auto 24px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -18,15 +18,17 @@
   line-height: 52px;
 }
 
-.menu__subtitle-firstline {
-  display: block;
-}
 .menu__subtitle {
+  display: block;
   text-align: center;
-  margin: 0 0 100px;
+  padding: 0;
+  margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+}
+.menu__subtitle-second {
+  margin: 0 0 100px;
 }
 .menu__cards {
   display: flex;
@@ -36,23 +38,4 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px;
-}
-.card__list-item {
-  display: flex;
-  margin: 0 0 16px;
-  list-style-type: none;
-}
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
 }
