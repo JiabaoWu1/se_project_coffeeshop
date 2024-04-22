@@ -35,15 +35,11 @@
   display: flex;
   align-items: center;
 }
-.footer__social-link:last-child {
-  margin-bottom: 16px;
-}
+
 .footer__social-link:hover {
   color: #c1c1c1;
 }
-.footer__social-link:first-child {
-  margin: 0 0 16px;
-}
+
 .footer__copyright {
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
@@ -61,4 +57,8 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 16px;
+}
+.footer__social-item:last-child {
+  margin-bottom: 0;
 }

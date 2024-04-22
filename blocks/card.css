@@ -4,6 +4,8 @@
 
 .card__title {
   margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 .card__list {
   padding: 0;
@@ -13,6 +15,7 @@
   display: flex;
   margin: 0 0 16px;
   list-style-type: none;
+  font-family: "Noto Serif";
 }
 .card__list-item:last-child {
   margin-bottom: 0;
