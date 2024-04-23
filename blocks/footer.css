@@ -59,6 +59,6 @@
   line-height: 20px;
   margin-bottom: 16px;
 }
-.footer__social-item:last-child {
+.footer__list-item:last-child {
   margin-bottom: 0;
 }
